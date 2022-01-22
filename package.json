@@ -2,17 +2,15 @@
   "name": "form-builder-dnd",
   "version": "0",
   "description": "Drag and drop form builder interface for react",
-  "main": "src/index.js",
+  "default": "src/index.html",
   "repository": {
     "type": "git",
     "url": "git@github.com:mitchellhillman/form-builder-dnd.git"
   },
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --fix",
-    "clean": "shx rm -rf dist",
     "start": "parcel src/index.html",
-    "build": "parcel build"
+    "build": "parcel build src/index.html --dist-dir=docs --public-url=/form-builder-dnd/"
   },
   "dependencies": {
     "eslint": "^7.32.0",
@@ -24,7 +22,9 @@
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "parcel": "^2.2.1"

@@ -1,0 +1,1 @@
+This is the build folder. Named `docs` to make deployment with github pages easier.

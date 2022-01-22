@@ -1,6 +1,30 @@
 .app {
   font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  padding-left: 290px
 }
 .title {
-  font-size: 60px
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 10px 30px 10px;
+  line-height: 30px;
+}
+.canvas {
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  float: left;
+}
+.elementTray {
+  float: left;
+  height: 100vh;
+  background: #efefef;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 1;
 }

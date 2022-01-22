@@ -1,0 +1,15 @@
+.cell {
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 75px;
+}
+.isDragging {
+  background: #fff;
+  border-radius: 2px;
+  border: 1px dashed #ccc;
+}
+.fullWidth {
+  width: 100%;
+}
